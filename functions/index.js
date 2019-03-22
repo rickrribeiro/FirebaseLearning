@@ -4,7 +4,7 @@
 
 
     config={
-        apikey:  '884b09dfacef4179952192451192103',
+        apikey:  'API key AQUI',
         projectId: "trendsbot-a91a6",
         authDomain: "trendsbot-a91a6",
         databaseURL: "https://trendsbot-a91a6.firebaseio.com",
