@@ -22,7 +22,7 @@
     born: 1815
     });
 
-    var aTuringRef = db.collection('cities').doc('1wjaz7w1KSvPv0CYo432');
+    var aTuringRef = db.collection('citiesAut').doc('1wjaz7w1KSvPv0CYo432');
 
     var setAlan = aTuringRef.set({
         'first': 'Alan2',
@@ -32,16 +32,16 @@
     }, {merge: true});
     
 
-    var addDoc = db.collection('cities').add({
+    var addDoc = db.collection('citiesAut').add({
         name: 'Tokyo',
         country: 'Japan'
       }).then(ref => {
         console.log('Added document with ID: ', ref.id);
       });
 
-      var deleteDoc = db.collection('cities').doc('1nsYMJccpyxqKfXfzC7R').delete()
+      var deleteDoc = db.collection('citiesAut').doc('1nsYMJccpyxqKfXfzC7R').delete()
 
-      var cityRef = db.collection('cities').doc('1wjaz7w1KSvPv0CYo432');
+      var cityRef = db.collection('citiesAut').doc('1wjaz7w1KSvPv0CYo432');
       var getDoc = cityRef.get()
         .then(doc => {
           if (!doc.exists) {
@@ -54,7 +54,7 @@
           console.log('Error getting document', err);
         });
 
-        var allCities = db.collection('cities').get() //getall
+        var allCities = db.collection('citiesAut').get() //getall
         .then(snapshot => {
           snapshot.forEach(doc => {
             console.log(doc.id, '=>', doc.data());

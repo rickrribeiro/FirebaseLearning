@@ -1,5 +1,5 @@
 {
-  "name": "telegramnotesbot",
+  "name": "firebaselearning",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rickrribeiro/TelegramNotesBot.git"
+    "url": "git+https://github.com/rickrribeiro/firebaselearning.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rickrribeiro/TelegramNotesBot/issues"
+    "url": "https://github.com/rickrribeiro/firebaselearning/issues"
   },
-  "homepage": "https://github.com/rickrribeiro/TelegramNotesBot#readme",
+  "homepage": "https://github.com/rickrribeiro/firebaselearning#readme",
   "dependencies": {
     "telegraf": "^3.27.1"
   }
