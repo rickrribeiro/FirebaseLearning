@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-
-
+import {BrowserRouter} from 'react-router-dom';
+import Navbar from './components/layout/Navbar.jsx'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Marioplan</h1>
-      </div>
+      <BrowserRouter>
+        <div className="App">
+         <Navbar />
+        </div>
+      </BrowserRouter>
     );
   }
 }
