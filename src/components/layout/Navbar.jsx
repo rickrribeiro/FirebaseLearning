@@ -5,10 +5,11 @@ import SignedOutLinks from './SignedOutLinks.js'
 const Navbar=  ()=>{
     return(
         <nav className="nav-wapper grey darken-3">
-            <div className="container"></div>
-            <Link to='/' className="brand-logo">MarioPlan</Link>
-            <SignedInLinks/>
-            <SignedOutLinks/>
+            <div className="container">
+                <Link to='/' className="brand-logo">MarioPlan</Link>
+                <SignedInLinks/>
+                <SignedOutLinks/>
+            </div>
         </nav>
 
     )
