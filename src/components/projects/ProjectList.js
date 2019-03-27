@@ -3,7 +3,7 @@ import ProjectSummary from  './ProjectSummary.js'
 
 const ProjectList = ({projects}) => {
     
-    console.log(projects)
+   // console.log(projects)
     return (
        <div className="project-list section">
         {
