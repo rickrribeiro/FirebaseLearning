@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "marioplan-b6d7d"
+    "default": "marioplan-b6d7d",
+    "marioplan": "marioplan-b6d7d"
   }
 }
