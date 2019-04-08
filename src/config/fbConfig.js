@@ -7,7 +7,7 @@ var config = {
     authDomain: "marioplan-b6d7d.firebaseapp.com",
     databaseURL: "https://marioplan-b6d7d.firebaseio.com",
     projectId: "marioplan-b6d7d",
-    storageBucket: "",
+    storageBucket: "marioplan-b6d7d.appspot.com",
     messagingSenderId: "236557872731"
   };
   firebase.initializeApp(config);
